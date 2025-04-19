@@ -8,7 +8,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment: CARGO_REGISTRY_TOKEN 
 
     steps:
       - name: Checkout code
@@ -19,8 +18,7 @@ jobs:
         with:
           toolchain: stable
 
-      - name: Login to crates.io
-        run: cargo login ${{ secrets.CRATES_IO_TOKEN }}
-
       - name: Publish to crates.io
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CRATES_IO_TOKEN }} 
         run: cargo publish --allow-dirty
