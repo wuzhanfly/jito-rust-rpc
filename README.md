@@ -1,6 +1,6 @@
 # jito-sdk-rust
 
-[![Discord](https://img.shields.io/discord/938287290806042626?label=Discord&logo=discord&style=flat&color=7289DA)](https://discord.gg/jTSmEzaR)
+[![Discord](https://img.shields.io/discord/938287290806042626?label=Discord&logo=discord&style=flat&color=7289DA)](https://discord.gg/WeAMhmaZ)
 ![Rust](https://img.shields.io/badge/Rust-Language-orange?logo=rust)
 [![Crates.io](https://img.shields.io/crates/v/jito_sdk_rust?label=crates.io&logo=rust)](https://crates.io/crates/jito-sdk-rust)
 [![docs.rs](https://img.shields.io/badge/docs.rs-jito_sdk_rust-blue?logo=rust)](https://docs.rs/jito-sdk-rust/latest/jito_sdk_rust/)
